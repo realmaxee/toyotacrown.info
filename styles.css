@@ -1,0 +1,53 @@
+/* GENERAL CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 24px;
+}
+
+.nav-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-links-wrapper > a {
+    padding: 24px;
+}
+
+.nav-links-wrapper > a:hover {
+    background-color: #444;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 24px;
+}
+
+/* HOME PAGE */
+#home-body {
+    background-color: #111;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
